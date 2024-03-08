@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+    /* justify x axle */
+    /* align y axle */ 
+
+
+    .navbar-collapse{
+        /* background-color: aqua; */
+        font-size: 1.5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .video{
+        position: relative;
+        translate: 2%;
+        width: 95vw;
+        height: auto;
+        max-height: 500px;
+    }
+
+    

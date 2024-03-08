@@ -1,0 +1,86 @@
+
+.navbar-collapse{
+    /* background-color: aqua; */
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.background-img{
+    position: absolute;
+
+    opacity: 0.7;
+    z-index: -1;
+
+    width: 100vw;
+    height: fit-content;
+    min-height: 770px;
+}
+
+.settings-body{
+    /* background-image: url(/img/settings.jpg); */
+    background-color: rgb(43, 214, 226);
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+    
+    text-shadow: rgb(172, 244, 255) 1px 0 10px;
+    background-color: rgb(43, 214, 226);
+    border-bottom: 5px solid black;
+}
+
+.form-container{
+    position: relative;
+    top: 50px;
+    /* left: 50%; */
+
+    font-size: 1.2em;
+
+    /* translate: -50% -50%; */
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+}
+
+.form-container > h2 {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.input{
+    background-color: rgba(161, 243, 243, 0.667);
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px rgb(0, 74, 74);
+    text-align: center;
+}
+
+.input:hover{
+    box-shadow: 10px 5px 5px rgb(246, 42, 42);
+    
+}
+
+.set-btn{
+    width: fit-content;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    
+    font-size: 1.2em;
+    
+    translate: -50% -50%;
+    
+    box-shadow: 10px 5px 5px rgb(0, 74, 74);
+}
+
+.set-btn:hover{
+    background-color: rgb(255, 198, 91);
+    box-shadow: 7px 2px 5px rgb(246, 42, 42);
+}
+
+
+@import url(/css/settings-var/var.css);
